@@ -1,7 +1,7 @@
 import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
-import Popeye from "./Popeye";
+import Places from "./Places";
 
 const routes = [
     {
@@ -14,8 +14,8 @@ const routes = [
         element: <Profile />,
     },
     {
-        path: "Popeye",
-        element: <Popeye />,
+        path: "Places",
+        element: <Places />,
     },
     
 ];

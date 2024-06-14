@@ -13,7 +13,7 @@ import routes from "./routes";
 
 import DefaultProfile from "./DefaultProfile";
 //import Spinach from "./Spinach";
-import Popeye from "./Popeye";
+import Places from "./Places";
 
 
 const router = createBrowserRouter(routes);

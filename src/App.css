@@ -11,17 +11,27 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo-small {
+  width: 100px;
+  height: auto;
+  filter: drop-shadow(0 0 2em #646cffaa);
+
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +49,49 @@
 
 .read-the-docs {
   color: #888;
+}
+.places-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em; /* Space between rows (40px) */
+  padding: 1.25em; /* Padding (20px) */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 15em; /* Tripled margin-right to 15em (240px) */
+}
+
+.image-container {
+  flex-shrink: 0;
+  margin-left: auto; /* Align image to the far right */
+}
+
+.location-image {
+  width: 12.5em; /* Width (200px) */
+  height: auto;
+  margin-left: 7.5em; /* Tripled margin-left to 7.5em (120px) */
+}
+
+h1 {
+  font-size: 1.5em; /* Font size (24px) */
+  margin-bottom: 0.625em; /* Margin-bottom (10px) */
+}
+
+p {
+  font-size: 1em; /* Font size (16px) */
+  margin-bottom: 1.25em; /* Margin-bottom (20px) */
+}
+
+a {
+  display: inline-block;
+  margin-top: 0.625em; /* Margin-top (10px) */
+  color: blue;
+  text-decoration: underline;
 }
