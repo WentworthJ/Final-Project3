@@ -5,7 +5,11 @@ import './App.css'
 import VariantButtonGroup from './components/buttonGroup'
 import { Link } from "react-router-dom";
 //importing images
-import EmbermountImage from './Images/Embermount_City.jpg';
+import Places from './Images/Places.jpg';
+import Characters from './Images/Characters.jpg';
+import Items from './Images/Items.jpg';
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,12 +33,11 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="profile">Profile page</Link>
               {/*Uses image in place of words to make the image a link*/}          
-              <Link to="Places"> pOPPY <img src={EmbermountImage} className="logo-small" alt="Vite logo" /></Link>
-              <Link to="Places"> pOPPY <img src={EmbermountImage} className="logo-small" alt="Vite logo" /></Link>
+              <Link to="Places"><img src={Places} className="logo-medium" alt="Vite logo" /></Link>
+              <Link to="Characters"> <img src={Characters} className="logo-medium" alt="Vite logo" /></Link>
 
-              <Link to="Places"> pOPPY <img src={EmbermountImage} className="logo-small" alt="Vite logo" /></Link>
+              <Link to="Items"> <img src={Items} className="logo-medium" alt="Vite logo" /></Link>
 
               
 

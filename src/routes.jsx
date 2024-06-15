@@ -2,6 +2,10 @@ import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
 import Places from "./Places";
+import Characters from "./Characters";
+import Items from "./Items";
+
+
 
 const routes = [
     {
@@ -16,6 +20,14 @@ const routes = [
     {
         path: "Places",
         element: <Places />,
+    },
+    {
+        path: "Characters",
+        element: <Characters />,
+    },
+    {
+        path: "Items",
+        element: <Items />,
     },
     
 ];

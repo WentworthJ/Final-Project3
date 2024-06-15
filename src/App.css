@@ -27,6 +27,12 @@
 
 }
 
+.logo-medium {
+  width: auto;
+  height: 12em;
+
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
