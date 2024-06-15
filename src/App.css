@@ -71,7 +71,7 @@
 
 .text-container {
   flex: 1;
-  margin-right: 15em; /* Tripled margin-right to 15em (240px) */
+  margin-right: 15em; /* Margin-right (240px) */
 }
 
 .image-container {
@@ -82,7 +82,7 @@
 .location-image {
   width: 12.5em; /* Width (200px) */
   height: auto;
-  margin-left: 7.5em; /* Tripled margin-left to 7.5em (120px) */
+  margin-left: 7.5em; /* Margin-left (120px) */
 }
 
 h1 {

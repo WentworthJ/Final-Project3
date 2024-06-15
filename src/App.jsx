@@ -16,20 +16,11 @@ function App() {
 
   return (
     <>
+      
       <div>
-        {/* Rendering Buttons */}
-        <VariantButtonGroup buttonOne="CIS155" buttonTwo="CIS255" buttonThree="CIS210"></VariantButtonGroup>
-        {/* Links to external sites with their respective logos */}
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <div>
-        <h1>Hello from the main page of the app!</h1>
-        <p>Here are some examples of links to other pages</p>
+        <h1>Welcome to my Website!</h1>
+        <p>This is currently an under-construction website about a story set in the universe of the Dungeon Defenders video game series</p>
+        <p>Due to the extreme lack of any lore besides the basic plot, I decided to write my own version of the story, adding details to the original while not contradicting anything.</p>
         <nav>
           <ul>
             <li>
